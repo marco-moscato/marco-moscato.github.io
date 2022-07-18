@@ -3,10 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu portfolio</title>
+    
+    <!--Definições de estilo CSS-->
     <style>
 
-      body {
+      body { /*Req 2: cor base de background*/
         background-color:#454E9E
+      }
+
+      #name {/* Req 1: fontes diferentes para nome e descrição */
+        font-family: 'Courier New', Courier, monospace; 
+      }
+
+      #my-profile { /* Req 1: fontes diferentes para nome e descrição */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
       }
 
     </style>
@@ -14,14 +25,14 @@
   <body>
 
     <!--Requisito #1: nome completo-->
-    <h1>Marco Aurélio Moscato</h1>
+    <h1 id="name">Marco Aurélio Moscato</h1>
 
     <!--Requisito #2: Um foto atual, acompanhada de um texto alternativo-->
     <img #id="profile_picture" src="IMG_2469.jpeg" alt="Foto do perfil de Marco">
 
     <!--Requisito #3: Um breve descrição, destacando nacionalidade e cidade/estado-->
     <h3>Quem sou?</h3>
-    <h4 #id="my_profile">Olá! Sou Marco, tenho 39 anos, moro em <strong>Curitiba-PR</strong> Sou estudante na turma 25 de Desenvolvimento Web na Trybe. Estou em transição de carreira para essa área, antes eu trabalhava como comprador. Sou <strong>brasileiro</strong>, natural de Apucarana, norte do Paraná.</h4>
+    <h4 #id="my-profile">Olá! Sou Marco, tenho 39 anos, moro em <strong>Curitiba-PR</strong> Sou estudante na turma 25 de Desenvolvimento Web na Trybe. Estou em transição de carreira para essa área, antes eu trabalhava como comprador. Sou <strong>brasileiro</strong>, natural de Apucarana, norte do Paraná.</h4>
 
     <!--Requisito #4: Lista de habilidades -->
     <h5 #id="my_skills">Minhas habilidades:</h5>
